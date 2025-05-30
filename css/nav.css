@@ -265,3 +265,29 @@ footer {
         font-size: 24px;
     }
 }
+
+.user-dropdown {
+    position: relative;
+    list-style: none;
+}
+.user-menu {
+    position: relative;
+    display: inline-block;
+}
+.user-menu .dropdown-content {
+    display: none;
+}
+.user-menu:hover .dropdown-content {
+    display: block;
+}
+.user-menu #user-name {
+    font-weight: bold;
+    color: #c00;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #fff;
+    transition: background 0.2s;
+}
+.user-menu #user-name:hover {
+    background: #f7e1e1;
+}
